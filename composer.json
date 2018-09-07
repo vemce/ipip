@@ -1,0 +1,19 @@
+{
+    "name": "vemce/ipip",
+    "description": "get ip location",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vemce",
+            "email": "vemce@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vemce\\ipip\\": "./src"
+        }
+    },
+    "require": {
+        "ipip/db": "^0.6.0"
+    }
+}
