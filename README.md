@@ -13,8 +13,8 @@ $ composer require vemce/ipip
 use vemce\ipip\Ip;
 require 'vendor/autoload.php';
 
-$location = Ip::find('110.53.241.213');
+$location = Ip::find('113.101.149.210');
 var_dump($location);
-$location = Ip::locationString('110.53.241.213');
+$location = Ip::locationString('113.101.149.210');
 echo $location;
 ```
