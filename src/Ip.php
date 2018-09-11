@@ -27,7 +27,8 @@ class Ip
         return implode('', array_unique($location));
     }
 
-    static private function setDb(){
+    static private function setDb()
+    {
         if (!self::$db) {
             $path = __DIR__ . '/ipip.ipdb';
             self::$db = new Reader($path);
