@@ -23,7 +23,7 @@ class Ip
 
     public static function locationString($ip = '')
     {
-        $location = self::$db->find($ip);
+        $location = self::find($ip);
         return implode('', array_unique($location));
     }
 
