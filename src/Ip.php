@@ -21,10 +21,10 @@ class Ip
         return self::$db->find($ip);
     }
 
-    public static function locationString($ip = '')
+    public static function locationString($ip = '', $glue = '')
     {
         $location = self::find($ip);
-        return implode('', array_unique($location));
+        return implode($glue, array_unique($location));
     }
 
     static private function setDb()
