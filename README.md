@@ -18,3 +18,6 @@ var_dump($location);
 $location = Ip::locationString('120.77.247.147');
 echo $location;
 ```
+## IP数据更新地址
+
+https://www.ipip.net/ipdb/test
